@@ -26,6 +26,8 @@ header {
   align-items: center;
   font-size: 10px;
   color: white;
+  position: fixed;
+  top: 0;
 }
 .lefthead {
   display: flex;
@@ -40,7 +42,7 @@ header {
   color: white;
 }
 
-.navber {
+nav{
   width: 100%;
   background-color: rgb(255, 255, 255);
   min-height: 3.9rem;
@@ -48,7 +50,7 @@ header {
   align-items: center;
   justify-content: space-evenly;
   position: fixed;
-  top: 0px;
+  top: 1.38rem;
 }
 
 #logo {
@@ -113,23 +115,23 @@ header {
 }
 
 main {
+  margin-top: 5.25rem;
   width: 100%;
-  height: calc(100vh - 150px);
+  height: 80vh;
   background-image:  url("./bg2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
 .para {
-  position: relative;
-  left: 12%;
-  top: 14%;
   text-transform: uppercase;
   font-size: var(--fs-200);
   font-weight: 500;
   font-family: Verdana, Geneva, Tahoma, sans-serifs;
   color: rgb(255, 255, 255);
   transition: all 0.8s;
+  margin-left: 11vw;
+  margin-top: 8vh;
 }
 .para h1 {
   color: rgb(229, 255, 0);
@@ -160,6 +162,7 @@ main {
   cursor: pointer;
   box-shadow: 4px 0px 4px black;
 }
+
 .card-container {
   position: absolute;
   left: 10%;
