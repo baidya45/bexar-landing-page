@@ -15,8 +15,8 @@
 }
 body {
  min-height: 200vh;
-  overflow-x: hidden;
-  overflow-y: scroll;
+  overflow-x:hidden;
+  overflow-y: auto;
 }
 header {
   width: 100%;
