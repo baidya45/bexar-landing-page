@@ -49,6 +49,8 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  position: sticky;
+  top: 0;
 }
 
 #logo {
@@ -180,9 +182,9 @@ header {
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 16px;
-  overflow: hidden;
-  box-shadow: 4px 0px 4px rgba(0, 0, 0, 0.342);
+  padding: 1rem;
+  /* overflow: hidden; */
+  box-shadow: 5px 0px 7px rgba(0, 0, 0, 0.342);
 }
 .card:hover {
   background-color: rgb(29, 29, 44);
@@ -231,7 +233,7 @@ header {
   .navber{
     justify-content: space-around;
     position: sticky;
-    top: 0px;
+    top: 10px;
   }
   .nav-op{
     display: flex;
@@ -246,7 +248,11 @@ header {
     background-color: rgb(255, 255, 255);
     transform: translateX(100%);
     transition: all 0.5s;
+    position: absolute;
     
+}
+.nav-op li a{
+  font-size: 0.8rem;
 }
   .rightmenu{
     width: 40%;
